@@ -1,0 +1,52 @@
+{
+  "uid" : "281f66a2c5bf4ffd",
+  "name" : "TestSuccessRegister[name: Vladimir, email: mail1783000628772@mail.ru, password: 123456, browser: chrome]",
+  "historyId" : "test.TestRegisterUser:test.TestRegisterUser#TestSuccessRegister[name: Vladimir, email: mail1783000628772@mail.ru, password: 123456, browser: chrome]",
+  "time" : {
+    "duration" : 1884
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a211fe58d0bced47",
+      "name" : "System out",
+      "source" : "a211fe58d0bced47.txt",
+      "type" : "text/plain",
+      "size" : 296
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestRegisterUser"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestRegisterUser"
+  }, {
+    "name" : "package",
+    "value" : "test.TestRegisterUser"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "281f66a2c5bf4ffd.json",
+  "parameterValues" : [ ]
+}
