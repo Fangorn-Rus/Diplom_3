@@ -1,0 +1,52 @@
+{
+  "uid" : "f7c09b972aba9274",
+  "name" : "TestEnterUserWithEnterAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+  "historyId" : "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithEnterAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+  "time" : {
+    "duration" : 2615
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9782ea9fb3b4741b",
+      "name" : "System out",
+      "source" : "9782ea9fb3b4741b.txt",
+      "type" : "text/plain",
+      "size" : 290
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestEnterUser"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestEnterUser"
+  }, {
+    "name" : "package",
+    "value" : "test.TestEnterUser"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7c09b972aba9274.json",
+  "parameterValues" : [ ]
+}

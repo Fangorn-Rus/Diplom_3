@@ -1,0 +1,308 @@
+{
+  "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingBuns[browser: chrome]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce64cac7d60f94",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1632
+      }
+    } ]
+  },
+  "test.TestRegisterUser:test.TestRegisterUser#TestSuccessRegister[name: Vladimir, email: mail1783000628772@mail.ru, password: 123456, browser: chrome]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "281f66a2c5bf4ffd",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1884
+      }
+    } ]
+  },
+  "test.TestRegisterWrongPassword:test.TestRegisterWrongPassword#TestSuccessRegister[name: Alex, email: mail1783000632504@mail.ru, password: 123, browser: yandex]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59a2201f79e925cd",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1878
+      }
+    } ]
+  },
+  "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingSauce[browser: yandex]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bb12440c562430f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1638
+      }
+    } ]
+  },
+  "test.TestRegisterWrongPassword:test.TestRegisterWrongPassword#TestSuccessRegister[name: Vladimir, email: mail1783000632504@mail.ru, password: 12345, browser: chrome]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6111b7c8a2a299f3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1878
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithRecoverPasswordForm[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3fa9e68c313c6a0",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2678
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithRegisterForm[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e72943ca759f9eba",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2703
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithEnterAccountButton[email: Alex, password: test321test@mail.ru, browser: 123456]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be1c6e202fe16ead",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2568
+      }
+    } ]
+  },
+  "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingFilling[browser: chrome]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9677463c2ed45999",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1868
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithEnterAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7c09b972aba9274",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2615
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithRecoverPasswordForm[email: Alex, password: test321test@mail.ru, browser: 123456]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc83d0428175e9ea",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2544
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithRegisterForm[email: Alex, password: test321test@mail.ru, browser: 123456]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f421ff1e4f5920d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2744
+      }
+    } ]
+  },
+  "test.TestRegisterUser:test.TestRegisterUser#TestSuccessRegister[name: Alex, email: mail1783000628773@mail.ru, password: 123456, browser: yandex]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aaed5da2a3d7431b",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1840
+      }
+    } ]
+  },
+  "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingSauce[browser: chrome]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a5446acb33dbc5b",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1534
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithPersonalAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3d3bf488ffd6221",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2590
+      }
+    } ]
+  },
+  "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingBuns[browser: yandex]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32d1786d92f53430",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1692
+      }
+    } ]
+  },
+  "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingFilling[browser: yandex]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5df2fcc96928a29",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1676
+      }
+    } ]
+  },
+  "test.TestEnterUser:test.TestEnterUser#TestEnterUserWithPersonalAccountButton[email: Alex, password: test321test@mail.ru, browser: 123456]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "587eadd191e7d676",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2696
+      }
+    } ]
+  }
+}

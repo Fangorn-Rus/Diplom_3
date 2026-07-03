@@ -1,0 +1,52 @@
+{
+  "uid" : "ce64cac7d60f94",
+  "name" : "TestCheckSectionTransitionsWorkingBuns[browser: chrome]",
+  "historyId" : "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingBuns[browser: chrome]",
+  "time" : {
+    "duration" : 1632
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6aa68187555305a0",
+      "name" : "System out",
+      "source" : "6aa68187555305a0.txt",
+      "type" : "text/plain",
+      "size" : 294
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestConstructor"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestConstructor"
+  }, {
+    "name" : "package",
+    "value" : "test.TestConstructor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce64cac7d60f94.json",
+  "parameterValues" : [ ]
+}

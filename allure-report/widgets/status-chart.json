@@ -1,0 +1,145 @@
+[ {
+  "uid" : "1bb12440c562430f",
+  "name" : "TestCheckSectionTransitionsWorkingSauce[browser: yandex]",
+  "time" : {
+    "duration" : 1638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9677463c2ed45999",
+  "name" : "TestCheckSectionTransitionsWorkingFilling[browser: chrome]",
+  "time" : {
+    "duration" : 1868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be1c6e202fe16ead",
+  "name" : "TestEnterUserWithEnterAccountButton[email: Alex, password: test321test@mail.ru, browser: 123456]",
+  "time" : {
+    "duration" : 2568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a5446acb33dbc5b",
+  "name" : "TestCheckSectionTransitionsWorkingSauce[browser: chrome]",
+  "time" : {
+    "duration" : 1534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aaed5da2a3d7431b",
+  "name" : "TestSuccessRegister[name: Alex, email: mail1783000628773@mail.ru, password: 123456, browser: yandex]",
+  "time" : {
+    "duration" : 1840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6111b7c8a2a299f3",
+  "name" : "TestSuccessRegister[name: Vladimir, email: mail1783000632504@mail.ru, password: 12345, browser: chrome]",
+  "time" : {
+    "duration" : 1878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f421ff1e4f5920d",
+  "name" : "TestEnterUserWithRegisterForm[email: Alex, password: test321test@mail.ru, browser: 123456]",
+  "time" : {
+    "duration" : 2744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc83d0428175e9ea",
+  "name" : "TestEnterUserWithRecoverPasswordForm[email: Alex, password: test321test@mail.ru, browser: 123456]",
+  "time" : {
+    "duration" : 2544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3fa9e68c313c6a0",
+  "name" : "TestEnterUserWithRecoverPasswordForm[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+  "time" : {
+    "duration" : 2678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59a2201f79e925cd",
+  "name" : "TestSuccessRegister[name: Alex, email: mail1783000632504@mail.ru, password: 123, browser: yandex]",
+  "time" : {
+    "duration" : 1878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e72943ca759f9eba",
+  "name" : "TestEnterUserWithRegisterForm[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+  "time" : {
+    "duration" : 2703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce64cac7d60f94",
+  "name" : "TestCheckSectionTransitionsWorkingBuns[browser: chrome]",
+  "time" : {
+    "duration" : 1632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "281f66a2c5bf4ffd",
+  "name" : "TestSuccessRegister[name: Vladimir, email: mail1783000628772@mail.ru, password: 123456, browser: chrome]",
+  "time" : {
+    "duration" : 1884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7c09b972aba9274",
+  "name" : "TestEnterUserWithEnterAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+  "time" : {
+    "duration" : 2615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32d1786d92f53430",
+  "name" : "TestCheckSectionTransitionsWorkingBuns[browser: yandex]",
+  "time" : {
+    "duration" : 1692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "587eadd191e7d676",
+  "name" : "TestEnterUserWithPersonalAccountButton[email: Alex, password: test321test@mail.ru, browser: 123456]",
+  "time" : {
+    "duration" : 2696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3d3bf488ffd6221",
+  "name" : "TestEnterUserWithPersonalAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+  "time" : {
+    "duration" : 2590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5df2fcc96928a29",
+  "name" : "TestCheckSectionTransitionsWorkingFilling[browser: yandex]",
+  "time" : {
+    "duration" : 1676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

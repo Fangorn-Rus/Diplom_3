@@ -1,0 +1,52 @@
+{
+  "uid" : "1bb12440c562430f",
+  "name" : "TestCheckSectionTransitionsWorkingSauce[browser: yandex]",
+  "historyId" : "test.TestConstructor:test.TestConstructor#TestCheckSectionTransitionsWorkingSauce[browser: yandex]",
+  "time" : {
+    "duration" : 1638
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6aa68187555305a0",
+      "name" : "System out",
+      "source" : "6aa68187555305a0.txt",
+      "type" : "text/plain",
+      "size" : 294
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "test.TestConstructor"
+  }, {
+    "name" : "testClass",
+    "value" : "test.TestConstructor"
+  }, {
+    "name" : "package",
+    "value" : "test.TestConstructor"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bb12440c562430f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,201 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test.TestConstructor",
+    "children" : [ {
+      "name" : "TestCheckSectionTransitionsWorkingSauce[browser: yandex]",
+      "uid" : "1bb12440c562430f",
+      "parentUid" : "92754845d2630d16f07d58c574818d1f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1638
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCheckSectionTransitionsWorkingFilling[browser: chrome]",
+      "uid" : "9677463c2ed45999",
+      "parentUid" : "92754845d2630d16f07d58c574818d1f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1868
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCheckSectionTransitionsWorkingSauce[browser: chrome]",
+      "uid" : "2a5446acb33dbc5b",
+      "parentUid" : "92754845d2630d16f07d58c574818d1f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1534
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCheckSectionTransitionsWorkingBuns[browser: chrome]",
+      "uid" : "ce64cac7d60f94",
+      "parentUid" : "92754845d2630d16f07d58c574818d1f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1632
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCheckSectionTransitionsWorkingBuns[browser: yandex]",
+      "uid" : "32d1786d92f53430",
+      "parentUid" : "92754845d2630d16f07d58c574818d1f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1692
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestCheckSectionTransitionsWorkingFilling[browser: yandex]",
+      "uid" : "5df2fcc96928a29",
+      "parentUid" : "92754845d2630d16f07d58c574818d1f",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1676
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "92754845d2630d16f07d58c574818d1f"
+  }, {
+    "name" : "test.TestEnterUser",
+    "children" : [ {
+      "name" : "TestEnterUserWithEnterAccountButton[email: Alex, password: test321test@mail.ru, browser: 123456]",
+      "uid" : "be1c6e202fe16ead",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2568
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithRegisterForm[email: Alex, password: test321test@mail.ru, browser: 123456]",
+      "uid" : "8f421ff1e4f5920d",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2744
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithRecoverPasswordForm[email: Alex, password: test321test@mail.ru, browser: 123456]",
+      "uid" : "dc83d0428175e9ea",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2544
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithRecoverPasswordForm[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+      "uid" : "e3fa9e68c313c6a0",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2678
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithRegisterForm[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+      "uid" : "e72943ca759f9eba",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2703
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithEnterAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+      "uid" : "f7c09b972aba9274",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2615
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithPersonalAccountButton[email: Alex, password: test321test@mail.ru, browser: 123456]",
+      "uid" : "587eadd191e7d676",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2696
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestEnterUserWithPersonalAccountButton[email: Vladimir, password: test333321test@mail.ru, browser: ffffffffffff]",
+      "uid" : "a3d3bf488ffd6221",
+      "parentUid" : "290b9c1979d5d121e12311ccf30ec4d7",
+      "status" : "passed",
+      "time" : {
+        "duration" : 2590
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "290b9c1979d5d121e12311ccf30ec4d7"
+  }, {
+    "name" : "test.TestRegisterUser",
+    "children" : [ {
+      "name" : "TestSuccessRegister[name: Alex, email: mail1783000628773@mail.ru, password: 123456, browser: yandex]",
+      "uid" : "aaed5da2a3d7431b",
+      "parentUid" : "fddb38b5a808c1601c14c4290649c52d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1840
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestSuccessRegister[name: Vladimir, email: mail1783000628772@mail.ru, password: 123456, browser: chrome]",
+      "uid" : "281f66a2c5bf4ffd",
+      "parentUid" : "fddb38b5a808c1601c14c4290649c52d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1884
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fddb38b5a808c1601c14c4290649c52d"
+  }, {
+    "name" : "test.TestRegisterWrongPassword",
+    "children" : [ {
+      "name" : "TestSuccessRegister[name: Vladimir, email: mail1783000632504@mail.ru, password: 12345, browser: chrome]",
+      "uid" : "6111b7c8a2a299f3",
+      "parentUid" : "119df257ef0e533f26444c1697157461",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1878
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestSuccessRegister[name: Alex, email: mail1783000632504@mail.ru, password: 123, browser: yandex]",
+      "uid" : "59a2201f79e925cd",
+      "parentUid" : "119df257ef0e533f26444c1697157461",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1878
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "119df257ef0e533f26444c1697157461"
+  } ]
+}
