@@ -1,45 +1,48 @@
 package test;
 
+import api.SetUpAPI;
+import api.TestPOMCreateAndDeleteUser;
+import api.UserDTO;
+import factories.SetUpBrowsers;
+import io.qameta.allure.junit4.DisplayName;
+import io.restassured.response.Response;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import pom.HomePage;
 import pom.LoginPage;
 import pom.RegisterPage;
 import static org.junit.Assert.assertTrue;
 
-@RunWith(Parameterized.class)
+
 public class TestRegisterUser {
     public WebDriver driver;
+    TestPOMCreateAndDeleteUser createAndDeleteUser;
+    String accessToken;
 
-    private final String name;
-    private final String email;
-    private final String password;
-    private final String browser;
+    private String email;
+    private String password;
+    private String name;
 
-    public TestRegisterUser(String name, String email, String password, String browser) {
-        this.name = name;
-        this.email = email;
-        this.password = password;
-        this.browser = browser;
+    @Before
+    public void init() {
+        SetUpAPI.setUp();
+        email = RandomStringUtils.randomAlphabetic(10).toLowerCase() + "@mail.ru";
+        password = RandomStringUtils.randomNumeric(8);
+        name = RandomStringUtils.randomAlphabetic(8);
+
+        createAndDeleteUser = new TestPOMCreateAndDeleteUser();
+        Response response = createAndDeleteUser.createUser(new UserDTO(email, password, name));
+        accessToken = response.path("accessToken");
+
     }
-
-    @Parameterized.Parameters(name = "name: {0}, email: {1}, password: {2}, browser: {3}")
-    public static Object[][] getCredentials() {
-        return new Object[][]{
-
-                {"Vladimir", "mail" + System.currentTimeMillis() + "@mail.ru", "123456", "chrome"},
-                {"Alex", "mail" + System.currentTimeMillis() + "@mail.ru", "123456", "yandex"}
-
-        };
-    }
-
 
     @Test
-    public void TestSuccessRegister(){
-        driver = new SetUpBrowsers().getDriver(browser);
+    @DisplayName("Успешная регистрация.")
+    public void testSuccessRegister(){
+        driver = new SetUpBrowsers().getDriver();
         driver.get(SetUpBrowsers.url);
 
         HomePage objHomePage = new HomePage(driver);
@@ -52,10 +55,22 @@ public class TestRegisterUser {
         objRegisterPage.setEmail(email);
         objRegisterPage.setPassword(password);
 
-        assertTrue(objRegisterPage.checkRegisterButton());
+        objHomePage.clickPersonalAccountButton();
+
+        objLoginPage.setEmail(email);
+        objLoginPage.setPassword(password);
+        objLoginPage.clickEnterButton();
+
+        objHomePage.clickPersonalAccountButton();
+        assertTrue(objLoginPage.checkProfileFieldVisible());
     }
 
     @After
-    public void tearDown() {        driver.quit();    }
+    public void tearDown() {
+        if(accessToken != null){
+            TestPOMCreateAndDeleteUser.deleteUser(accessToken);
+        }
+        driver.quit();
+    }
 
 }

@@ -1,9 +1,15 @@
 package test;
 
+import api.SetUpAPI;
+import api.TestPOMCreateAndDeleteUser;
+import api.UserDTO;
+import factories.SetUpBrowsers;
+import io.qameta.allure.junit4.DisplayName;
+import io.restassured.response.Response;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import pom.HomePage;
 import pom.LoginPage;
@@ -12,31 +18,31 @@ import pom.RegisterPage;
 
 import static org.junit.Assert.assertTrue;
 
-@RunWith(Parameterized.class)
 public class TestEnterUser {
     public WebDriver driver;
+    TestPOMCreateAndDeleteUser createAndDeleteUser;
+    String accessToken;
 
-    private final String email;
-    private final String password;
-    private final String browser;
+    private String email;
+    private String password;
 
-    public TestEnterUser(String email, String password, String browser) {
-        this.email = email;
-        this.password = password;
-        this.browser = browser;
-    }
+    @Before
+    public void init() {
+        SetUpAPI.setUp();
+        email = RandomStringUtils.randomAlphabetic(10).toLowerCase() + "@mail.ru";
+        password = RandomStringUtils.randomNumeric(8);
+        String name = RandomStringUtils.randomAlphabetic(8);
 
-    @Parameterized.Parameters(name = "email: {0}, password: {1}, browser: {2}")
-    public static Object[][] getCredentials() {
-        return new Object[][]{
-                {"Alex","test321test@mail.ru", "123456", "chrome"},
-                {"Vladimir","test333321test@mail.ru", "ffffffffffff", "yandex"}
-        };
+        createAndDeleteUser = new TestPOMCreateAndDeleteUser();
+        Response response = createAndDeleteUser.createUser(new UserDTO(email, password, name));
+        accessToken = response.path("accessToken");
+
     }
 
     @Test
-    public void TestEnterUserWithPersonalAccountButton(){
-        driver = new SetUpBrowsers().getDriver(browser);
+    @DisplayName("вход через кнопку «Личный кабинет»;")
+    public void testEnterUserWithPersonalAccountButton(){
+        driver = new SetUpBrowsers().getDriver();
         driver.get(SetUpBrowsers.url);
 
         HomePage objHomePage = new HomePage(driver);
@@ -54,8 +60,9 @@ public class TestEnterUser {
     }
 
     @Test
-    public void TestEnterUserWithEnterAccountButton(){
-        driver = new SetUpBrowsers().getDriver(browser);
+    @DisplayName("вход по кнопке «Войти в аккаунт» на главной;")
+    public void testEnterUserWithEnterAccountButton(){
+        driver = new SetUpBrowsers().getDriver();
         driver.get(SetUpBrowsers.url);
 
         HomePage objHomePage = new HomePage(driver);
@@ -72,8 +79,9 @@ public class TestEnterUser {
     }
 
     @Test
-    public void TestEnterUserWithRegisterForm(){
-        driver = new SetUpBrowsers().getDriver(browser);
+    @DisplayName("вход через кнопку в форме регистрации;")
+    public void testEnterUserWithRegisterForm(){
+        driver = new SetUpBrowsers().getDriver();
         driver.get(SetUpBrowsers.url);
 
         HomePage objHomePage = new HomePage(driver);
@@ -93,8 +101,9 @@ public class TestEnterUser {
     }
 
     @Test
-    public void TestEnterUserWithRecoverPasswordForm(){
-        driver = new SetUpBrowsers().getDriver(browser);
+    @DisplayName("вход через кнопку в форме восстановления пароля")
+    public void testEnterUserWithRecoverPasswordForm(){
+        driver = new SetUpBrowsers().getDriver();
         driver.get(SetUpBrowsers.url);
 
         HomePage objHomePage = new HomePage(driver);
@@ -114,7 +123,11 @@ public class TestEnterUser {
     }
 
     @After
-    public void tearDown() {        driver.quit();    }
+    public void tearDown() {
+        if(accessToken != null){
+            TestPOMCreateAndDeleteUser.deleteUser(accessToken);
+        }
+        driver.quit();    }
 
 
 }

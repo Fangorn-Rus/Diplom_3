@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: test.TestRegisterUser
+Test set: test.TestEnterUser
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.725 s -- in test.TestRegisterUser
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.61 s -- in test.TestEnterUser

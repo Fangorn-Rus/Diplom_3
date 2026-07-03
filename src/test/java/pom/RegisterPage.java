@@ -1,5 +1,6 @@
 package pom;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -18,25 +19,23 @@ public class RegisterPage {
     public RegisterPage(WebDriver driver) {
         this.driver = driver;
     }
-
+    @Step("Ввод имени")
     public void setName (String userName) {        driver.findElement(name).sendKeys(userName);    }
+    @Step("Ввод email")
     public void setEmail (String userEmail) {
         driver.findElement(email).sendKeys(userEmail);
     }
+    @Step("Ввод пароля")
     public void setPassword (String userPassword) {
         driver.findElement(password).sendKeys(userPassword);
     }
+    @Step("Клик по кнопке 'Зарегистрироваться'")
     public void clickRegisterButton(){        driver.findElement(registerButton).click();    }
+    @Step("Клик по ссылке 'Войти'")
     public void clickEnterURLButton(){        driver.findElement(enterURLButton).click();    }
-
+    @Step("Проверка отображения сообщения о некорректном пароле")
     public boolean checkWrongRegisterStatusWithWrongPassword(){
         return new WebDriverWait(driver, Duration.ofSeconds(5))
                 .until(ExpectedConditions.visibilityOfElementLocated(wrongPasswordMessage)).isDisplayed();
-    }
-
-    public boolean checkRegisterButton(){
-        return new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.visibilityOfElementLocated(registerButton))
-                .findElement(registerButton).isEnabled();
     }
 }
